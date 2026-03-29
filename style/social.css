@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/*<-----------------------------------CONFIGURAÇÕES GERAIS----------------------------------------->*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*<-----------------------------------BODY--------------------------------------------------------->*/
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*<-----------------------------------IMG---------------------------------------------------------->*/
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+
+img{
+    width: 100vw;
+}
+/*<-----------------------------------LINK--------------------------------------------------------->*/
+a{
+    display: block;
+    background-color: darkred;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: red;
+    transition: 0.3s;
+}
