@@ -36,8 +36,7 @@ iframe{
     left: 6.9%;
 }
 
-a{
-    display: block;
+#redes-sociais{
     text-align: right;
 }
 
@@ -49,7 +48,7 @@ a{
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.473);
     right: 10px;
     top: 10px;
-    margin-bottom: 0.1%;
+    margin-bottom: 1.45%;
 }
 
 #redes-sociais > a > img:hover{
