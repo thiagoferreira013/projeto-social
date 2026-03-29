@@ -36,16 +36,24 @@ iframe{
     left: 6.9%;
 }
 
-#redes-sociais > a > img{
-    width: 50px;
-    height: 50px;
-    margin: 6px;
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.473);
+p{
+    text-align: right;
 }
 
-#redes-sociais > a > img:hover{
+#redes-sociais > p > a > img{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.473);
+    right: 10px;
+    top: 10px;
+    margin-bottom: 0.1%;
+}
+
+#redes-sociais > p  a > img:hover{
     border: 2px solid rgba(255, 255, 255, 0.616);
-    transform: translate(3px, -3px);
+    transform: translate(-3px, -3px);
     transition: 0.5s;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.329);
 }
